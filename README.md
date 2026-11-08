@@ -12,7 +12,7 @@
 ![Agent](https://img.shields.io/badge/Agent-1F6FEB?style=flat-square&logo=probot&logoColor=white)
 ![Workflow](https://img.shields.io/badge/Workflow-6E40C9?style=flat-square&logo=diagram&logoColor=white)
 ![RAG](https://img.shields.io/badge/RAG-3B4252?style=flat-square&logo=databricks&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![Evals](https://img.shields.io/badge/Evals-0B7285?style=flat-square&logo=checkmarx&logoColor=white)
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
 
 </div>
@@ -74,11 +74,14 @@ flowchart LR
 
 ## 技术栈
 
+不按语言分类，按「一个 AI 系统从模型到线上要经过哪几层」来分。每一层缺了，系统要么跑不起来，要么撑不住。
+
 <table>
-<tr><td width="22%"><b>AI</b></td><td>LLM 应用 · Agent · 工作流编排 · RAG · Context Engineering · 评测体系</td></tr>
-<tr><td><b>语言与框架</b></td><td>Python · Java · Spring Boot · Spring Cloud</td></tr>
-<tr><td><b>存储与中间件</b></td><td>MySQL · Redis · Elasticsearch · Kafka</td></tr>
-<tr><td><b>工程与运维</b></td><td>Linux · Docker · Kubernetes · GitHub Actions</td></tr>
+<tr><td width="22%"><b>模型接入</b></td><td>LLM API 接入 · 多模型路由与降级 · 结构化输出（JSON Schema / 函数调用）· token 成本与延迟预算</td></tr>
+<tr><td><b>智能体编排</b></td><td>工具调用与白名单 · 任务分解 · 上下文与状态管理 · 失败重试与兜底 · 人审介入</td></tr>
+<tr><td><b>知识与检索</b></td><td>切分与索引 · 向量检索 · 混合检索（BM25 + 向量）· 重排 · 上下文预算分配</td></tr>
+<tr><td><b>服务与运行时</b></td><td>Python / FastAPI · Java / Spring Boot · MySQL · Redis · Kafka · Docker / Kubernetes</td></tr>
+<tr><td><b>评测与观测</b></td><td>评测集构建 · 离线回归 · recall@k / nDCG / MRR · Trace 追踪 · 线上反馈闭环</td></tr>
 </table>
 
 <br/>
@@ -120,12 +123,16 @@ back a step.
 
 ### Stack
 
+Read as layers of an AI system, not as a list of languages. Every one of these has to be
+there, or the thing either does not run or does not hold.
+
 | Layer | Contents |
 | :-- | :-- |
-| AI | LLM apps · Agents · Workflow orchestration · RAG · Context engineering · Evals |
-| Language & frameworks | Python · Java · Spring Boot · Spring Cloud |
-| Storage & messaging | MySQL · Redis · Elasticsearch · Kafka |
-| Engineering | Linux · Docker · Kubernetes · GitHub Actions |
+| Models | LLM APIs · multi-model routing and fallback · structured output (JSON schema / tool calling) · token and latency budgets |
+| Agents | tool calling and allow-lists · task decomposition · context and state management · retries and fallbacks · human-in-the-loop |
+| Retrieval | chunking and indexing · vector search · hybrid retrieval (BM25 + vectors) · reranking · context budgeting |
+| Services & runtime | Python / FastAPI · Java / Spring Boot · MySQL · Redis · Kafka · Docker / Kubernetes |
+| Evals & observability | eval set design · offline regression · recall@k / nDCG / MRR · tracing · feedback loops |
 
 </details>
 
