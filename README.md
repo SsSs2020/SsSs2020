@@ -23,27 +23,9 @@
 
 <table>
 <tr>
-<td width="33%" valign="top">
-
-**在做**
-
-Agent 编排、工具调用可靠性、上下文工程。
-
-</td>
-<td width="33%" valign="top">
-
-**在研究**
-
-检索质量与评测方法、模型能力边界。
-
-</td>
-<td width="34%" valign="top">
-
-**工具链**
-
-命令行优先的 AI 工作流：gh / CLI agents / 自动化脚本。
-
-</td>
+<td width="33%" valign="top"><b>在做</b><br/><br/>Agent 编排、工具调用可靠性、上下文工程。</td>
+<td width="33%" valign="top"><b>在研究</b><br/><br/>检索质量与评测方法、模型能力边界。</td>
+<td width="34%" valign="top"><b>工具链</b><br/><br/>命令行优先的 AI 工作流：gh / CLI agents / 自动化脚本。</td>
 </tr>
 </table>
 
