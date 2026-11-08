@@ -1,24 +1,24 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-label="oxw — AI-native engineering">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-label="oxw — Java backend engineering">
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#080c18"/>
-      <stop offset="52%" stop-color="#0e1730"/>
-      <stop offset="100%" stop-color="#18224a"/>
+      <stop offset="0%" stop-color="#0a0f1c"/>
+      <stop offset="52%" stop-color="#101b33"/>
+      <stop offset="100%" stop-color="#1a2a4d"/>
     </linearGradient>
     <linearGradient id="rule" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#4f8cff"/>
-      <stop offset="100%" stop-color="#8f6bff" stop-opacity="0"/>
+      <stop offset="0%" stop-color="#e07b39"/>
+      <stop offset="100%" stop-color="#e07b39" stop-opacity="0"/>
     </linearGradient>
     <linearGradient id="edge" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#4f8cff" stop-opacity="0.9"/>
-      <stop offset="45%" stop-color="#8f6bff" stop-opacity="0.55"/>
-      <stop offset="100%" stop-color="#8f6bff" stop-opacity="0"/>
+      <stop offset="0%" stop-color="#e07b39" stop-opacity="0.85"/>
+      <stop offset="45%" stop-color="#4f8cff" stop-opacity="0.45"/>
+      <stop offset="100%" stop-color="#4f8cff" stop-opacity="0"/>
     </linearGradient>
     <pattern id="dots" width="26" height="26" patternUnits="userSpaceOnUse">
-      <circle cx="1.4" cy="1.4" r="1.4" fill="#ffffff" opacity="0.055"/>
+      <circle cx="1.4" cy="1.4" r="1.4" fill="#ffffff" opacity="0.05"/>
     </pattern>
-    <radialGradient id="glow" cx="0.72" cy="0.35" r="0.6">
-      <stop offset="0%" stop-color="#4f8cff" stop-opacity="0.22"/>
+    <radialGradient id="glow" cx="0.74" cy="0.32" r="0.58">
+      <stop offset="0%" stop-color="#4f8cff" stop-opacity="0.18"/>
       <stop offset="100%" stop-color="#4f8cff" stop-opacity="0"/>
     </radialGradient>
   </defs>
@@ -27,31 +27,31 @@
   <rect width="1200" height="300" fill="url(#glow)"/>
   <rect width="1200" height="300" fill="url(#dots)"/>
 
-  <g stroke="#6ea8ff" stroke-width="1" opacity="0.34" fill="none">
-    <circle cx="946" cy="150" r="118"/>
-    <circle cx="946" cy="150" r="84"/>
-    <circle cx="946" cy="150" r="50"/>
+  <g stroke="#5f8fd6" stroke-width="1" opacity="0.3" fill="none">
+    <circle cx="952" cy="150" r="116"/>
+    <circle cx="952" cy="150" r="82"/>
+    <circle cx="952" cy="150" r="48"/>
   </g>
-  <g fill="#9cc0ff" opacity="0.75">
-    <circle cx="946" cy="48" r="3.4"/>
-    <circle cx="1042" cy="188" r="2.6"/>
-    <circle cx="856" cy="196" r="2.6"/>
-    <circle cx="946" cy="150" r="4.6"/>
+  <g fill="#9cc0ff" opacity="0.7">
+    <circle cx="952" cy="50" r="3.2"/>
+    <circle cx="1046" cy="186" r="2.4"/>
+    <circle cx="864" cy="194" r="2.4"/>
+    <circle cx="952" cy="150" r="4.4"/>
   </g>
-  <g stroke="#8f6bff" stroke-width="1" opacity="0.4">
-    <line x1="946" y1="48" x2="946" y2="150"/>
-    <line x1="946" y1="150" x2="1042" y2="188"/>
-    <line x1="946" y1="150" x2="856" y2="196"/>
+  <g stroke="#e07b39" stroke-width="1" opacity="0.35">
+    <line x1="952" y1="50" x2="952" y2="150"/>
+    <line x1="952" y1="150" x2="1046" y2="186"/>
+    <line x1="952" y1="150" x2="864" y2="194"/>
   </g>
 
   <g font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif">
-    <text x="80" y="112" fill="#6ea8ff" font-size="13" font-weight="600" letter-spacing="6.5">AI-NATIVE ENGINEERING</text>
+    <text x="80" y="112" fill="#e07b39" font-size="13" font-weight="600" letter-spacing="6.5">JAVA BACKEND ENGINEERING</text>
 
     <text x="76" y="196" fill="#f4f7ff" font-size="92" font-weight="700" letter-spacing="-1">oxw</text>
 
     <rect x="80" y="216" width="256" height="2.4" fill="url(#rule)"/>
 
-    <text x="80" y="252" fill="#94a3c4" font-size="15" letter-spacing="3.2">LLM · AGENT · RAG · IN PRODUCTION</text>
+    <text x="80" y="252" fill="#94a3c4" font-size="15" letter-spacing="3.2">SPRING · JVM · DISTRIBUTED SYSTEMS</text>
   </g>
 
   <rect x="0" y="298" width="1200" height="2" fill="url(#edge)"/>
