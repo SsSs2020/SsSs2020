@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-label="oxw — AI-native engineering">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#080c18"/>
+      <stop offset="52%" stop-color="#0e1730"/>
+      <stop offset="100%" stop-color="#18224a"/>
+    </linearGradient>
+    <linearGradient id="rule" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#4f8cff"/>
+      <stop offset="100%" stop-color="#8f6bff" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="edge" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#4f8cff" stop-opacity="0.9"/>
+      <stop offset="45%" stop-color="#8f6bff" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#8f6bff" stop-opacity="0"/>
+    </linearGradient>
+    <pattern id="dots" width="26" height="26" patternUnits="userSpaceOnUse">
+      <circle cx="1.4" cy="1.4" r="1.4" fill="#ffffff" opacity="0.055"/>
+    </pattern>
+    <radialGradient id="glow" cx="0.72" cy="0.35" r="0.6">
+      <stop offset="0%" stop-color="#4f8cff" stop-opacity="0.22"/>
+      <stop offset="100%" stop-color="#4f8cff" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1200" height="300" fill="url(#bg)"/>
+  <rect width="1200" height="300" fill="url(#glow)"/>
+  <rect width="1200" height="300" fill="url(#dots)"/>
+
+  <g stroke="#6ea8ff" stroke-width="1" opacity="0.34" fill="none">
+    <circle cx="946" cy="150" r="118"/>
+    <circle cx="946" cy="150" r="84"/>
+    <circle cx="946" cy="150" r="50"/>
+  </g>
+  <g fill="#9cc0ff" opacity="0.75">
+    <circle cx="946" cy="48" r="3.4"/>
+    <circle cx="1042" cy="188" r="2.6"/>
+    <circle cx="856" cy="196" r="2.6"/>
+    <circle cx="946" cy="150" r="4.6"/>
+  </g>
+  <g stroke="#8f6bff" stroke-width="1" opacity="0.4">
+    <line x1="946" y1="48" x2="946" y2="150"/>
+    <line x1="946" y1="150" x2="1042" y2="188"/>
+    <line x1="946" y1="150" x2="856" y2="196"/>
+  </g>
+
+  <g font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif">
+    <text x="80" y="112" fill="#6ea8ff" font-size="13" font-weight="600" letter-spacing="6.5">AI-NATIVE ENGINEERING</text>
+
+    <text x="76" y="196" fill="#f4f7ff" font-size="92" font-weight="700" letter-spacing="-1">oxw</text>
+
+    <rect x="80" y="216" width="256" height="2.4" fill="url(#rule)"/>
+
+    <text x="80" y="252" fill="#94a3c4" font-size="15" letter-spacing="3.2">LLM · AGENT · RAG · IN PRODUCTION</text>
+  </g>
+
+  <rect x="0" y="298" width="1200" height="2" fill="url(#edge)"/>
+</svg>
